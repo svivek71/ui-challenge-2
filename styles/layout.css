@@ -1,0 +1,50 @@
+
+
+
+input[type=checkbox]{display:none;} */
+
+
+/**************************************/
+/* Checkboxes sprite background image */
+/**************************************/
+
+input[type=checkbox]{display:none;}
+
+input[type=checkbox] + label.check{
+   display:inline-block;
+   cursor: pointer;  
+   outline: 0;  
+   width: 40px;
+   height: 40px;
+   background-image: url(https://psdtowp.net/images/resources/checkbox.png);
+   background-repeat: no-repeat;	
+   background-position: 0 0;    
+   margin-right: 25px;
+   text-align: center;
+   font-weight: bold;
+}
+
+input[type=checkbox] + label.check span{vertical-align: -60px;}
+
+input[type=checkbox]:checked + label.check{background-position: 0 bottom;}
+
+/* Just started based on the LAB.md */
+/* .radio-btns, .chk-boxes, .select-arrow {
+    background-image: url('../sprites/form-elements-sprite.png');
+    background-repeat: no-repeat;
+  }
+
+.chk-boxes {
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.radio-btns {
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.select-arrow {
+    height: 128px;
+    background-position: -5px -5px;
+} */
